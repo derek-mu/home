@@ -1,5 +1,5 @@
 * [Home](/)
-<!-- * [讨论](https://github.com/binjf/home/issues) -->
+* [Back](https://derek-mu.github.io/)
 
-[:cn:](/zh-cn/) 
+<!-- [:cn:](/zh-cn/)  -->
 

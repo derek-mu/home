@@ -1,20 +1,18 @@
-# Crypto / Blockchain
+# Cryptos / Blockchain / Web3
 
-[Derek668.eth](https://derek-mu.github.io/) &copy; 2018  Keep learning <small>（Updated： {docsify-updated}）</small>
+[Derek668.eth](https://derek-mu.github.io/) &copy;Since 2018  Keep learning <small>（Updated： {docsify-updated}）</small>
 
 
 > Discipline = Freedom
 
-Good stuff always filters up.
-
-是金子总会发光的。
+- Good stuff always filters up.
 
 
 ## About Me
 
-- Self-motivated, energetic and analytical strategist with extensive experience in Blcokchain, Start-ups and FinTech. 
-- Deep passion in digital transformation and solid data analytical skills paired with hands-on 0-1 & 1-10 experience of a company.
-- Passionate web3 believer with a strong affinity for the blockchain industry and over three years of hands-on experience.
+> Self-motivated, energetic and analytical strategist with extensive experience in Blcokchain, Start-ups and FinTech. 
+> Deep passion in digital transformation and solid data analytical skills paired with hands-on 0-1 & 1-10 experience of a company.
+> Passionate web3 believer with a strong affinity for the blockchain industry and over three years of hands-on experience.
 
 
 Passionate, knowledgeable, and driven, I am eager to contribute my skills and expertise to a forward-thinking organization in the Web3 space. If you are seeking a dedicated professional who can make a meaningful impact, I would be thrilled to connect with you.
