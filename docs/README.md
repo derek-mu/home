@@ -1,98 +1,73 @@
-# 知识库
+# Crypto / Blockchain
 
-[宾桀锋](https://github.com/binjf)（著）&copy; 2019  终身成长者 <small>（文档更新时间： {docsify-updated}）</small>
-
-
-
-> Discipline=Freedom 自律=自由
-
-Be the change you want to see in the world.
-
-通过改变自身来适应万变的世界。
-
-## Sky 其人
-
-- Sky 是个非常笨拙但是努力的人，只喜欢简单的东西
-- Sky 是个非常感情用事的人，只喜欢他喜欢的人搞出来的东西
+[Derek668.eth](https://derek-mu.github.io/) &copy; 2018  Keep learning <small>（Updated： {docsify-updated}）</small>
 
 
+> Discipline = Freedom
 
-You can not control your bedtime, not even your life. The problem is, that you know everything, but you can do nothing. Because…Maybe you are too lazy.
+Good stuff always filters up.
 
-你连你的睡觉时间都控制不了，更别提你的人生了。问题就在于，你什么都知道，但你却做不到。也许因为...是你太懒了。
+是金子总会发光的。
 
-你连几点睡几点起床，都控制不了，还想控制你的人生。我知道，道理你都懂，可是你懒啊你懒啊啊啊
 
-## 自律
+## About Me
 
-1 自律的人，既可怕，又可敬。如果是伙伴，你要跟他学会律己；如果是对手，你要做好足够的心理准备。
+- Self-motivated, energetic and analytical strategist with extensive experience in Blcokchain, Start-ups and FinTech. 
+- Deep passion in digital transformation and solid data analytical skills paired with hands-on 0-1 & 1-10 experience of a company.
+- Passionate web3 believer with a strong affinity for the blockchain industry and over three years of hands-on experience.
 
-2 以前总觉得，人生苦短，应及时行乐。今朝有酒今朝醉，人不风流枉少年。直到后来，我渐渐发现：每一个不自律的行为，都会给你带来更大的痛苦。不要做欲望的奴隶，自律可以令我们活得更高级。
 
-3 自由的本质不是放纵自己，不是无所不为，而是自律之后的舒畅，是有所为，有所不为。
+Passionate, knowledgeable, and driven, I am eager to contribute my skills and expertise to a forward-thinking organization in the Web3 space. If you are seeking a dedicated professional who can make a meaningful impact, I would be thrilled to connect with you.
 
 
 
-### 彭于晏自律
+## Why Web3?
 
-彭于晏的故事告诉你，自律的人，到底有多可怕。彭于晏说：我就是因为没有才华，所以才用命拼，我不怕苦，就怕学不到东西。你有多自律，人生就有多美好。
-
-- 拍《翻滚吧！阿信》时
-
-  彭于晏每天训练12小时，练了六个月，吃了八个月的水煮蛋，最终体脂练到6%
-
-- 拍摄《激战》时
-
-  他话了三个月时间密集训练，每天8-9个小时。每拍一部电影，get 一个新技能
-
-- 拍《海豚爱上猫》时
-
-  他在演戏的同时，立马拿到了海豚训练师资格证
-
-- 拍《听说》时
-
-  他练习手语练了三个月，每天都要练到手抽筋终于学会了
-
-- 拍《湄公河行动》时
-
-  他学会了泰语、缅甸语和射击，还参加了泰国皇家御用保安的特训
+Seriously, the web3 meaning is all about the decentralization of the internet and using blockchain technology to create a more secure, transparent, and autonomous web. It's a revolutionary concept that's changing the game for industries like finance, Internet and even art! So if you want to stay up-to-date with the latest tech trends, get ready to dive headfirst into the world of Web3.
 
 
+### Revolutionary
 
-### 自律改变生活
+Web3 represents a significant paradigm shift in how we think about the internet and its potential. Here's a deeper dive into why Web3 is seen as revolutionary:
 
-26岁的时候，我学会了一件事情—“聚焦”。我关闭了自己的朋友圈，卸载了所有娱乐APP，把全部的时间和精力都聚焦在时间管理这件事情上。当我专注去做一件事情的时候，我发现自己成长的非常快，再也没有把时间浪费在那些没有蚂蚁小事的事情上。当你开始全心全意专注的去做一件事情的时候，上天都会帮助你。
+- Decentralization
+  One of the main principles of Web3 is decentralization, meaning that no single entity has complete control over the entire network. This prevents monopolies and gives power back to the individual users. Decentralized applications (dApps) can operate without intermediaries, which can reduce costs and increase efficiency.
 
-你越自律，你越有钱；你越自律，你的生活会越来越好。
+- Security and Transparency
+  With the use of blockchain technology, Web3 aims to provide a more secure environment for transactions and data storage. Every transaction is recorded on a public ledger, making it transparent and immutable. This can greatly reduce fraudulent activities and tampering.
+
+- Censorship Resistance
+  Decentralization inherently makes it difficult for any single entity to censor or shut down the network. This makes Web3 platforms more resilient to censorship attempts by governments or powerful entities.
+
+- Digital Ownership
+  One of the revolutionary aspects of Web3 is the concept of true digital ownership. Using non-fungible tokens (NFTs), creators can mint unique digital assets that can be traded, sold, or used in virtual environments. This has been particularly impactful in the art and gaming industries.
+
+- Monetization Models
+  With Web3, new monetization models become possible. Content creators, for example, can be directly rewarded by their communities without relying on traditional advertising or platform fees.
+
+- Interoperability
+  Web3 frameworks often allow different applications and services to interact with one another seamlessly. This can create a rich ecosystem where value and data can flow between dApps without friction.
+
+- Privacy and Personal Data Control
+  Web3 provides mechanisms for users to have greater control over their personal data. Instead of companies hoarding and profiting off your data, individuals can choose what data they wish to share and potentially even monetize their own data.
+
+- Inclusion
+  Traditional financial and governance systems often leave many people out, especially in underdeveloped regions. Web3, with its global reach and reduced entry barriers, can offer more inclusive solutions, from banking to voting.
+
+- Programmable Finance (DeFi)
+  Decentralized Finance or DeFi is an example of how traditional financial systems can be recreated in a decentralized manner on Web3, providing open, permissionless financial services to anyone.
+
+- Community Governance(DAO)
+  Many Web3 projects are governed by their communities, enabling users to have a say in the development and direction of the platform. This can foster innovation and ensure that platforms evolve in ways that serve their user base.
 
 
 
-### 自律顶端就是享受孤独
+### Keep Learning
 
-一个人成熟的标记，就是明白白天发生在自己身上99%的事情，对于别人而言是毫无意义的。成熟就是理解孤独，接受孤独，享受孤独。坚持晚十早五的作息时间，坚持每天三小时的阅读，坚持每天两个小时的健身。用未来视角严格的要求现在的自己，站在五年后的自己来审视现在，欠缺的实在是太多太多。成功需要朋友而巨大的成功需要学会面对孤独。为了合群，我们不知道消费了多少时间，从今天开始享受孤独。
+Just do it.
 
-## 2019 清单
 
-1 高度自律，早睡早起
+## 2023 Target
 
-​	每天7点起床，晚上11点睡觉
+Fighting!
 
-2 有计划，勤反思
-
-​	每天早上做出当天计划，每天睡觉前进行自我反思
-
-3 锻炼身体，坚持运动
-
-​	每天运动一小时，放空自己
-
-4 多读书，勤写作
-
-​	写作真的可以更好的认识自己
-
-5 练习自己的表达能力
-
-​	做到说话有条理，不拖泥带水
-
-6 和朋友同行多交流
-
-​	走出去，学习别人，认识自己
