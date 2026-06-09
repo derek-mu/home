@@ -46,32 +46,6 @@ blockquote, q {
 		content: none;
 	}
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-body {
-	-webkit-text-size-adjust: none;
-}
-
-mark {
-	background-color: transparent;
-	color: inherit;
-}
-
-input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
-}
-
-input, select, textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
-}
-
 /* Basic */
 
 	html {
@@ -3219,3 +3193,187 @@ input, select, textarea {
 			}
 
 	}
+
+/* Derek portfolio refinements */
+
+	.kicker {
+		color: #49bf9d;
+		font-size: 0.8em;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		margin: 0 0 1.5em 0;
+		text-transform: uppercase;
+	}
+
+	.header-actions {
+		list-style: none;
+		margin: 2em 0 0 0;
+		padding: 0;
+	}
+
+		.header-actions li {
+			display: inline-block;
+			margin: 0 0.75em 0.75em 0;
+			padding: 0;
+		}
+
+		.header-actions a {
+			border: solid 2px rgba(255, 255, 255, 0.22);
+			border-radius: 0.35em;
+			color: rgba(255, 255, 255, 0.78) !important;
+			display: inline-block;
+			font-size: 0.8em;
+			padding: 0.45em 0.9em;
+		}
+
+			.header-actions a:hover {
+				border-color: #49bf9d;
+				color: #ffffff !important;
+			}
+
+	.stats {
+		display: grid;
+		gap: 1em;
+		grid-template-columns: repeat(3, 1fr);
+		list-style: none;
+		margin: 2em 0;
+		padding: 0;
+	}
+
+		.stats li {
+			background: #f7f7f7;
+			border: solid 2px #efefef;
+			border-radius: 0.45em;
+			margin: 0;
+			padding: 1.1em;
+		}
+
+		.stats strong {
+			color: #49bf9d;
+			display: block;
+			font-size: 1.7em;
+			line-height: 1;
+			margin-bottom: 0.35em;
+		}
+
+		.stats span {
+			color: #787878;
+			display: block;
+			font-size: 0.82em;
+			line-height: 1.45em;
+		}
+
+	.focus-grid article {
+		margin-bottom: 2.25em;
+	}
+
+		.focus-grid article h3 {
+			color: #49bf9d;
+			margin-bottom: 0.55em;
+		}
+
+	.section-intro {
+		max-width: 44em;
+	}
+
+	.project-card {
+		background: #ffffff;
+		border: solid 2px #efefef;
+		border-radius: 0.45em;
+		margin-bottom: 2.25em;
+		padding: 1em 1em 1.25em 1em;
+	}
+
+		.project-card .image {
+			margin: -1em -1em 1.25em -1em;
+			width: calc(100% + 2em);
+		}
+
+		.project-card h3 {
+			color: #565656;
+			line-height: 1.35em;
+			margin-bottom: 0.7em;
+		}
+
+	.project-date {
+		color: #49bf9d;
+		font-size: 0.82em;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		margin: 0 0 0.8em 0;
+		text-transform: uppercase;
+	}
+
+	.project-highlights {
+		font-size: 0.82em;
+		line-height: 1.55em;
+		margin-top: 1em;
+	}
+
+		.project-highlights li {
+			margin: 0.55em 0 0 0;
+		}
+
+	.actions.stacked {
+		display: block;
+	}
+
+		.actions.stacked li {
+			display: block;
+			padding: 0 0 0.8em 0;
+		}
+
+		.actions.stacked .button {
+			width: 100%;
+		}
+
+	@media screen and (max-width: 980px) {
+
+		.stats {
+			grid-template-columns: 1fr;
+		}
+
+		.header-actions {
+			text-align: center;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.project-card {
+			padding: 0.85em 0.85em 1.1em 0.85em;
+		}
+
+		.project-card .image {
+			margin: -0.85em -0.85em 1.1em -0.85em;
+			width: calc(100% + 1.7em);
+		}
+
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
