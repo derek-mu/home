@@ -95,22 +95,44 @@
 
 	// Main Sections: Two.
 
+		// Project expand/collapse.
+			var $projectDetails = $('#two .project-card details');
+
+			$projectDetails.on('toggle', function() {
+				var $details = $(this),
+					$card = $details.closest('.project-card');
+
+				if (this.open) {
+					$projectDetails.not(this).each(function() {
+						this.open = false;
+						$(this).closest('.project-card').removeClass('is-open');
+					});
+
+					$card.addClass('is-open');
+				}
+				else {
+					$card.removeClass('is-open');
+				}
+			});
+
 		// Lightbox gallery.
 			$window.on('load', function() {
 
-				$('#two').poptrox({
-					caption: function($a) { return $a.next('h3').text(); },
-					overlayColor: '#2c2c2c',
-					overlayOpacity: 0.85,
-					popupCloserText: '',
-					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
-					usePopupEasyClose: false,
-					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
-				});
+				if ($('#two .work-item a.image').length) {
+					$('#two').poptrox({
+						caption: function($a) { return $a.next('h3').text(); },
+						overlayColor: '#2c2c2c',
+						overlayOpacity: 0.85,
+						popupCloserText: '',
+						popupLoaderText: '',
+						selector: '.work-item a.image',
+						usePopupCaption: true,
+						usePopupDefaultStyling: false,
+						usePopupEasyClose: false,
+						usePopupNav: true,
+						windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+					});
+				}
 
 			});
 

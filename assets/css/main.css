@@ -3196,6 +3196,23 @@ blockquote, q {
 
 /* Derek portfolio refinements */
 
+	.hero-name {
+		color: #ffffff;
+		font-size: 1.9em;
+		font-weight: 700;
+		line-height: 1.1em;
+		margin: 0 0 0.55em 0;
+	}
+
+	.hero-tags {
+		color: rgba(255, 255, 255, 0.66);
+		font-size: 0.78em;
+		font-weight: 700;
+		line-height: 1.55em;
+		margin: 1.35em 0 0 0;
+		text-transform: uppercase;
+	}
+
 	.kicker {
 		color: #49bf9d;
 		font-size: 0.8em;
@@ -3281,22 +3298,50 @@ blockquote, q {
 		border: solid 2px #efefef;
 		border-radius: 0.45em;
 		margin-bottom: 2.25em;
-		padding: 1em 1em 1.25em 1em;
+		padding: 1.15em 1.15em 1.35em 1.15em;
 	}
 
+		.project-card.is-open {
+			width: 100%;
+		}
+
+		.project-card details {
+			display: block;
+		}
+
+		.project-card summary {
+			cursor: pointer;
+			display: block;
+			list-style: none;
+		}
+
+			.project-card summary::-webkit-details-marker {
+				display: none;
+			}
+
 		.project-card .image {
-			margin: -1em -1em 1.25em -1em;
-			width: calc(100% + 2em);
+			margin: -1.15em -1.15em 1.3em -1.15em;
+			width: calc(100% + 2.3em);
+		}
+
+		.project-card .image img {
+			height: 15em;
+			object-fit: cover;
 		}
 
 		.project-card h3 {
 			color: #565656;
 			line-height: 1.35em;
-			margin-bottom: 0.7em;
+			margin-bottom: 1em;
 		}
 
-	.project-date {
+		.project-card summary:hover h3 {
+			color: #49bf9d;
+		}
+
+	.project-label {
 		color: #49bf9d;
+		display: block;
 		font-size: 0.82em;
 		font-weight: 700;
 		letter-spacing: 0.04em;
@@ -3304,14 +3349,63 @@ blockquote, q {
 		text-transform: uppercase;
 	}
 
+	.project-details {
+		border-top: solid 2px #efefef;
+		margin-top: 1.25em;
+		padding-top: 0.2em;
+	}
+
+	.project-section {
+		border-top: solid 1px #efefef;
+		margin-top: 1.15em;
+		padding-top: 1.05em;
+	}
+
+		.project-section h4 {
+			color: #787878;
+			font-size: 0.86em;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			margin: 0 0 0.5em 0;
+			text-transform: uppercase;
+		}
+
+		.project-section p {
+			font-size: 0.9em;
+			line-height: 1.6em;
+			margin: 0;
+		}
+
 	.project-highlights {
-		font-size: 0.82em;
+		font-size: 0.88em;
 		line-height: 1.55em;
-		margin-top: 1em;
+		list-style: disc;
+		margin: 1em 0 0 1.15em;
 	}
 
 		.project-highlights li {
-			margin: 0.55em 0 0 0;
+			margin: 0.45em 0 0 0;
+		}
+
+	.project-toggle {
+		border: solid 2px #efefef;
+		border-radius: 0.35em;
+		color: #787878;
+		display: inline-block;
+		font-size: 0.78em;
+		font-weight: 700;
+		line-height: 1;
+		margin-top: 1.2em;
+		padding: 0.75em 0.95em;
+		text-transform: uppercase;
+	}
+
+		.project-toggle:after {
+			content: 'View details';
+		}
+
+		details[open] .project-toggle:after {
+			content: 'Hide details';
 		}
 
 	.actions.stacked {
@@ -3328,6 +3422,10 @@ blockquote, q {
 		}
 
 	@media screen and (max-width: 980px) {
+
+		.hero-name {
+			font-size: 2.2em;
+		}
 
 		.stats {
 			grid-template-columns: 1fr;
@@ -3348,6 +3446,10 @@ blockquote, q {
 		.project-card .image {
 			margin: -0.85em -0.85em 1.1em -0.85em;
 			width: calc(100% + 1.7em);
+		}
+
+		.project-card .image img {
+			height: 11em;
 		}
 
 	}
